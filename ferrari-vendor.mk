@@ -16,8 +16,12 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
+    com.qualcomm.location
+
+PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
-    shutdownlistener
+    shutdownlistener \
+    TimeService
 
 PRODUCT_PACKAGES += \
     qcnvitems \
@@ -27,7 +31,11 @@ PRODUCT_PACKAGES += \
     libqct_resampler \
     libmm-abl
 
-RODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
+    libloc_api_v02 \
+    libloc_ds_api
+
+PRODUCT_PACKAGES += \
     libHevcSwDecoder \
     libtime_genoff
 
