@@ -369,6 +369,73 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ferrari/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
     vendor/xiaomi/ferrari/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/xiaomi/ferrari/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx179_common.so:system/vendor/lib64/libchromatix_imx179_common.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx179_default_video.so:system/vendor/lib64/libchromatix_imx179_default_video.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx179_preview.so:system/vendor/lib64/libchromatix_imx179_preview.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx179_snapshot.so:system/vendor/lib64/libchromatix_imx179_snapshot.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_common.so:system/vendor/lib64/libchromatix_imx214_common.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_default_video.so:system/vendor/lib64/libchromatix_imx214_default_video.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_hfr_120fps.so:system/vendor/lib64/libchromatix_imx214_hfr_120fps.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_hfr_60fps.so:system/vendor/lib64/libchromatix_imx214_hfr_60fps.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_hfr_90fps.so:system/vendor/lib64/libchromatix_imx214_hfr_90fps.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_liveshot.so:system/vendor/lib64/libchromatix_imx214_liveshot.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_ofilm_largan_common.so:system/vendor/lib64/libchromatix_imx214_ofilm_largan_common.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_ofilm_largan_default_video.so:system/vendor/lib64/libchromatix_imx214_ofilm_largan_default_video.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_ofilm_largan_hfr_120fps.so:system/vendor/lib64/libchromatix_imx214_ofilm_largan_hfr_120fps.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_ofilm_largan_hfr_60fps.so:system/vendor/lib64/libchromatix_imx214_ofilm_largan_hfr_60fps.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_ofilm_largan_hfr_90fps.so:system/vendor/lib64/libchromatix_imx214_ofilm_largan_hfr_90fps.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_ofilm_largan_liveshot.so:system/vendor/lib64/libchromatix_imx214_ofilm_largan_liveshot.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_ofilm_largan_preview.so:system/vendor/lib64/libchromatix_imx214_ofilm_largan_preview.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_ofilm_largan_snapshot.so:system/vendor/lib64/libchromatix_imx214_ofilm_largan_snapshot.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_ofilm_largan_snapshot_default.so:system/vendor/lib64/libchromatix_imx214_ofilm_largan_snapshot_default.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_ofilm_largan_snapshot_hdr.so:system/vendor/lib64/libchromatix_imx214_ofilm_largan_snapshot_hdr.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_ofilm_largan_video_hd.so:system/vendor/lib64/libchromatix_imx214_ofilm_largan_video_hd.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_ofilm_largan_video_hdr.so:system/vendor/lib64/libchromatix_imx214_ofilm_largan_video_hdr.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_preview.so:system/vendor/lib64/libchromatix_imx214_preview.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_snapshot.so:system/vendor/lib64/libchromatix_imx214_snapshot.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_snapshot_hdr.so:system/vendor/lib64/libchromatix_imx214_snapshot_hdr.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_sunny_largan_common.so:system/vendor/lib64/libchromatix_imx214_sunny_largan_common.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_sunny_largan_default_video.so:system/vendor/lib64/libchromatix_imx214_sunny_largan_default_video.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_sunny_largan_hfr_120fps.so:system/vendor/lib64/libchromatix_imx214_sunny_largan_hfr_120fps.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_sunny_largan_hfr_60fps.so:system/vendor/lib64/libchromatix_imx214_sunny_largan_hfr_60fps.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_sunny_largan_hfr_90fps.so:system/vendor/lib64/libchromatix_imx214_sunny_largan_hfr_90fps.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_sunny_largan_liveshot.so:system/vendor/lib64/libchromatix_imx214_sunny_largan_liveshot.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_sunny_largan_preview.so:system/vendor/lib64/libchromatix_imx214_sunny_largan_preview.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_sunny_largan_snapshot.so:system/vendor/lib64/libchromatix_imx214_sunny_largan_snapshot.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_sunny_largan_snapshot_default.so:system/vendor/lib64/libchromatix_imx214_sunny_largan_snapshot_default.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_sunny_largan_snapshot_hdr.so:system/vendor/lib64/libchromatix_imx214_sunny_largan_snapshot_hdr.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_sunny_largan_video_hd.so:system/vendor/lib64/libchromatix_imx214_sunny_largan_video_hd.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_sunny_largan_video_hdr.so:system/vendor/lib64/libchromatix_imx214_sunny_largan_video_hdr.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_imx214_video_hdr.so:system/vendor/lib64/libchromatix_imx214_video_hdr.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_ov13850_default_video.so:system/vendor/lib64/libchromatix_ov13850_default_video.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_ov16825_common.so:system/vendor/lib64/libchromatix_ov16825_common.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_ov16825_default_video.so:system/vendor/lib64/libchromatix_ov16825_default_video.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_ov16825_preview.so:system/vendor/lib64/libchromatix_ov16825_preview.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_ov16825_snapshot.so:system/vendor/lib64/libchromatix_ov16825_snapshot.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_ov8858_common.so:system/vendor/lib64/libchromatix_ov8858_common.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_ov8858_default_video.so:system/vendor/lib64/libchromatix_ov8858_default_video.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_ov8858_hfr_120fps.so:system/vendor/lib64/libchromatix_ov8858_hfr_120fps.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_ov8858_hfr_60fps.so:system/vendor/lib64/libchromatix_ov8858_hfr_60fps.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_ov8858_hfr_90fps.so:system/vendor/lib64/libchromatix_ov8858_hfr_90fps.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_ov8858_liveshot.so:system/vendor/lib64/libchromatix_ov8858_liveshot.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_ov8858_preview.so:system/vendor/lib64/libchromatix_ov8858_preview.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_ov8858_q8v19w_common.so:system/vendor/lib64/libchromatix_ov8858_q8v19w_common.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_ov8858_q8v19w_default_video.so:system/vendor/lib64/libchromatix_ov8858_q8v19w_default_video.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_ov8858_q8v19w_hfr_120fps.so:system/vendor/lib64/libchromatix_ov8858_q8v19w_hfr_120fps.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_ov8858_q8v19w_hfr_60fps.so:system/vendor/lib64/libchromatix_ov8858_q8v19w_hfr_60fps.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_ov8858_q8v19w_hfr_90fps.so:system/vendor/lib64/libchromatix_ov8858_q8v19w_hfr_90fps.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_ov8858_q8v19w_liveshot.so:system/vendor/lib64/libchromatix_ov8858_q8v19w_liveshot.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_ov8858_q8v19w_preview.so:system/vendor/lib64/libchromatix_ov8858_q8v19w_preview.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_ov8858_q8v19w_snapshot.so:system/vendor/lib64/libchromatix_ov8858_q8v19w_snapshot.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_ov8858_q8v19w_zsl.so:system/vendor/lib64/libchromatix_ov8858_q8v19w_zsl.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_ov8858_snapshot.so:system/vendor/lib64/libchromatix_ov8858_snapshot.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_s5k3m2_f13s01k_common.so:system/vendor/lib64/libchromatix_s5k3m2_f13s01k_common.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_s5k3m2_f13s01k_default_video.so:system/vendor/lib64/libchromatix_s5k3m2_f13s01k_default_video.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_s5k3m2_f13s01k_hfr_120fps.so:system/vendor/lib64/libchromatix_s5k3m2_f13s01k_hfr_120fps.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_s5k3m2_f13s01k_hfr_60fps.so:system/vendor/lib64/libchromatix_s5k3m2_f13s01k_hfr_60fps.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_s5k3m2_f13s01k_hfr_90fps.so:system/vendor/lib64/libchromatix_s5k3m2_f13s01k_hfr_90fps.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_s5k3m2_f13s01k_preview.so:system/vendor/lib64/libchromatix_s5k3m2_f13s01k_preview.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libchromatix_s5k3m2_f13s01k_snapshot.so:system/vendor/lib64/libchromatix_s5k3m2_f13s01k_snapshot.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
@@ -497,10 +564,22 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ferrari/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/xiaomi/ferrari/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/xiaomi/ferrari/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/xiaomi/ferrari/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
-    vendor/xiaomi/ferrari/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
-    vendor/xiaomi/ferrari/proprietary/lib64/libril.so:system/lib64/libril.so \
-    vendor/xiaomi/ferrari/proprietary/lib/libril.so:system/lib/libril.so \
+	vendor/xiaomi/ferrari/proprietary/lib64/libchromatix_imx135_liveshot.so:system/lib64/libchromatix_imx135_liveshot.so \
+	vendor/xiaomi/ferrari/proprietary/lib64/libchromatix_imx179_liveshot.so:system/lib64/libchromatix_imx179_liveshot.so \
+	vendor/xiaomi/ferrari/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
+	vendor/xiaomi/ferrari/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
+	vendor/xiaomi/ferrari/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
+	vendor/xiaomi/ferrari/proprietary/lib64/libril.so:system/lib64/libril.so \
+	vendor/xiaomi/ferrari/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
+	vendor/xiaomi/ferrari/proprietary/lib64/libtime_genoff.so:system/lib64/libtime_genoff.so \
+    vendor/xiaomi/ferrari/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
+	vendor/xiaomi/ferrari/proprietary/lib/libchromatix_imx179_liveshot.so:system/lib/libchromatix_imx179_liveshot.so \
+	vendor/xiaomi/ferrari/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+	vendor/xiaomi/ferrari/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+	vendor/xiaomi/ferrari/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+	vendor/xiaomi/ferrari/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+	vendor/xiaomi/ferrari/proprietary/lib/libril.so:system/lib/libril.so \
+	vendor/xiaomi/ferrari/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
