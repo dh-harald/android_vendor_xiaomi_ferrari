@@ -1,0 +1,18 @@
+ O volume na unidade G ‚ Downloads
+ O N£mero de S‚rie do Volume ‚ 0064-E021
+
+ Pasta de G:\test\android_vendor_xiaomi_ferrari\proprietary\lib
+
+15/07/2015  18:09    <DIR>          .
+15/07/2015  18:09    <DIR>          ..
+15/07/2015  18:09                 0 file.txt
+06/12/2011  11:27            26.516 libchromatix_imx135_liveshot.so
+06/12/2011  11:27            26.516 libchromatix_imx179_liveshot.so
+15/07/2015  14:52           107.196 libloc_api_v02.so
+15/07/2015  14:52            17.648 libloc_ds_api.so
+06/12/2011  11:27            79.140 libmm-qcamera.so
+06/12/2011  11:27            62.696 libmmcamera_interface.so
+06/12/2011  11:27            43.788 libril.so
+15/07/2015  14:25             9.224 libtime_genoff.so
+               9 arquivo(s)        372.724 bytes
+               2 pasta(s)   107.173.965.824 bytes dispon¡veis
