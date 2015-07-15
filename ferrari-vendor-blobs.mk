@@ -572,6 +572,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ferrari/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/xiaomi/ferrari/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/xiaomi/ferrari/proprietary/lib64/libtime_genoff.so:system/lib64/libtime_genoff.so \
+    vendor/xiaomi/ferrari/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/xiaomi/ferrari/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
     vendor/xiaomi/ferrari/proprietary/lib/libchromatix_imx179_liveshot.so:system/lib/libchromatix_imx179_liveshot.so \
     vendor/xiaomi/ferrari/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
