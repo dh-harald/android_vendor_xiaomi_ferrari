@@ -510,6 +510,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
+    vendor/xiaomi/ferrari/proprietary/bin/sensor_select.sh:system/bin/sensor_select.sh \
+    vendor/xiaomi/ferrari/proprietary/lib/hw/sensors.lsm6db0.so:system/lib/hw/sensors.lsm6db0.so \
+    vendor/xiaomi/ferrari/proprietary/lib64/hw/sensors.lsm6db0.so:system/lib64/hw/sensors.lsm6db0.so \
     vendor/xiaomi/ferrari/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
@@ -535,5 +538,55 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ferrari/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/xiaomi/ferrari/proprietary/bin/fmfactorytest:system/bin/fmfactorytest \
     vendor/xiaomi/ferrari/proprietary/bin/fmfactorytestserver:system/bin/fmfactorytestserver \
-    vendor/xiaomi/ferrari/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches
+    vendor/xiaomi/ferrari/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
+    vendor/xiaomi/ferrari/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
+    vendor/xiaomi/ferrari/proprietary/bin/mmi:system/bin/mmi \
+    vendor/xiaomi/ferrari/proprietary/etc/MMI_PCBA.cfg:system/etc/MMI_PCBA.cfg \
+    vendor/xiaomi/ferrari/proprietary/etc/mmi.cfg:system/etc/mmi.cfg \
+    vendor/xiaomi/ferrari/proprietary/etc/mmi/strings.xml:system/etc/mmi/strings.xml \
+    vendor/xiaomi/ferrari/proprietary/etc/mmi/strings-zh-rCN.xml:system/etc/mmi/strings-zh-rCN.xml \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib/mmi_audio.so:system/vendor/lib/mmi_audio.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/mmi_audio.so:system/vendor/lib64/mmi_audio.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib/mmi_battery.so:system/vendor/lib/mmi_battery.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/mmi_battery.so:system/vendor/lib64/mmi_battery.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib/mmi_bt.so:system/vendor/lib/mmi_bt.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/mmi_bt.so:system/vendor/lib64/mmi_bt.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib/mmi_fm.so:system/vendor/lib/mmi_fm.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/mmi_fm.so:system/vendor/lib64/mmi_fm.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib/mmi_gps_garden.so:system/vendor/lib/mmi_gps_garden.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/mmi_gps_garden.so:system/vendor/lib64/mmi_gps_garden.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib/mmi_gsensor.so:system/vendor/lib/mmi_gsensor.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/mmi_gsensor.so:system/vendor/lib64/mmi_gsensor.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib/mmi_gyroscope.so:system/vendor/lib/mmi_gyroscope.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/mmi_gyroscope.so:system/vendor/lib64/mmi_gyroscope.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib/mmi_key.so:system/vendor/lib/mmi_key.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/mmi_key.so:system/vendor/lib64/mmi_key.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib/mmi_lcd.so:system/vendor/lib/mmi_lcd.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/mmi_lcd.so:system/vendor/lib64/mmi_lcd.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib/mmi_led.so:system/vendor/lib/mmi_led.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/mmi_led.so:system/vendor/lib64/mmi_led.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib/mmi_lsensor.so:system/vendor/lib/mmi_lsensor.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/mmi_lsensor.so:system/vendor/lib64/mmi_lsensor.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib/mmi_msensor.so:system/vendor/lib/mmi_msensor.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/mmi_msensor.so:system/vendor/lib64/mmi_msensor.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib/mmi_nfc.so:system/vendor/lib/mmi_nfc.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/mmi_nfc.so:system/vendor/lib64/mmi_nfc.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib/mmi_psensor.so:system/vendor/lib/mmi_psensor.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/mmi_psensor.so:system/vendor/lib64/mmi_psensor.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib/mmi_sdcard.so:system/vendor/lib/mmi_sdcard.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/mmi_sdcard.so:system/vendor/lib64/mmi_sdcard.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib/mmi_sim.so:system/vendor/lib/mmi_sim.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/mmi_sim.so:system/vendor/lib64/mmi_sim.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib/mmi_sysinfo.so:system/vendor/lib/mmi_sysinfo.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/mmi_sysinfo.so:system/vendor/lib64/mmi_sysinfo.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib/mmi_touch.so:system/vendor/lib/mmi_touch.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/mmi_touch.so:system/vendor/lib64/mmi_touch.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib/mmi_touchpanel.so:system/vendor/lib/mmi_touchpanel.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/mmi_touchpanel.so:system/vendor/lib64/mmi_touchpanel.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib/mmi_vibrator.so:system/vendor/lib/mmi_vibrator.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/mmi_vibrator.so:system/vendor/lib64/mmi_vibrator.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib/mmi_volume.so:system/vendor/lib/mmi_volume.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/mmi_volume.so:system/vendor/lib64/mmi_volume.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib/mmi_wifi.so:system/vendor/lib/mmi_wifi.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/mmi_wifi.so:system/vendor/lib64/mmi_wifi.so
 
