@@ -496,7 +496,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ferrari/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/xiaomi/ferrari/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/xiaomi/ferrari/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/xiaomi/ferrari/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
     vendor/xiaomi/ferrari/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
